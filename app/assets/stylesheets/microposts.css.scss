@@ -1,3 +1,94 @@
 // Place all the styles related to the Microposts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body
+{
+	background-color:#d8cfcf;
+}
+
+h1
+{
+	font-size:40px;
+	color:#c9a8e0;
+	text-shadow: 2px 2px #000;
+	width: 600px;
+}
+
+table, th, td
+{
+	border:1px solid black;
+}
+
+td
+{
+	padding:5px;
+}
+
+table
+{
+	margin: 0px;
+	border-collapse:collapse;
+	width:600px;
+
+	background-color:#a59e9e;
+
+	position:relative;
+	animation: myfirst 5s;
+	-webkit-animation: myfirst 5s;
+}
+
+th
+{
+	background-color:#f98622;
+}
+
+a
+{
+	padding:1px;
+	background-color:#c7bebe;
+	box-shadow: 3px 3px 5px #888888;
+	border-radius:5px;
+	text-decoration:none;
+	color:#000;
+}
+
+a:visited
+{
+	padding:1px;
+	background-color:#c7bebe;;
+	box-shadow: 3px 3px 5px #888888;
+	border-radius:5px;
+	text-decoration:none;
+	color:#000;
+}
+
+a:hover
+{
+	background-color:#e87511;
+	color:#000;
+	box-shadow: -1px -1px 5px #000;
+	text-decoration:none;
+}
+
+a:active
+{
+	background-color:#e87511;
+	color:#000;
+	box-shadow: -1px -1px 5px #000;
+	text-decoration:none;
+}
+
+@keyframes myfirst
+{
+0%   {left:-620px; top:0px;}
+100% {left:0px; top:0px;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {left:-620px; top:0px;}
+100% {left:0px; top:0px;}
+}
